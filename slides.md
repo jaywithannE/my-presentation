@@ -12,7 +12,7 @@ $$
 
 ---
 
-# Slide with Video
+# Slide with Video 
 
 <video controls width="800">
   <source src="circle.mp4" type="video/mp4">
