@@ -1,3 +1,7 @@
+<section data-markdown>
+  <textarea data-template>
+
+
 <!-- Slide 1 -->
 <section data-auto-animate>
 <h1>Welcome</h1>
@@ -30,3 +34,6 @@ $$
   <source src="circle.mp4" type="video/mp4">
   Your browser doesn't support the video tag.
 </video>
+
+</textarea>
+</section>
