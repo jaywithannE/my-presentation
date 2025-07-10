@@ -1,5 +1,3 @@
----
-
 ## Welcome
 To me beautiful <small>animated presentation</small>.
 
