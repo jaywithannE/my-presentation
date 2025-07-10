@@ -22,7 +22,7 @@ $$
 # Slide with Video
 
 <!-- Use raw HTML here -->
-<video controls width="800" autoplay muted loop>
+<video controls width="500" autoplay muted loop>
   <source src="circle.mp4" type="video/mp4">
   Your browser doesn’t support the video tag.
 </video>
