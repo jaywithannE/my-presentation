@@ -1,20 +1,8 @@
-<section data-markdown>
-  <textarea data-template>
-
-
-<!-- Slide 1 -->
-<section data-auto-animate>
-<h1>Welcome</h1>
-<p>To me beautiful <span data-id="anim">presentation</span>.</p>
-</section>
-
 ---
 
-<!-- Slide 2 -->
-<section data-auto-animate>
-<h1>Welcome</h1>
-<p>To me beautiful <span data-id="anim">animated presentation</span>.</p>
-</section>
+##Welcom
+To me beautiful <small>animated presentation</small>.
+
 
 ---
 
@@ -35,5 +23,4 @@ $$
   Your browser doesn't support the video tag.
 </video>
 
-</textarea>
-</section>
+
