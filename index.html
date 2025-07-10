@@ -1,29 +1,17 @@
-<!DOCTYPE html>
-<html>
 <head>
-  <meta charset="utf-8">
-  <title>Reveal.js Slides</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/theme/black.css">
+  <!-- ...other tags... -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <div class="reveal">
-    <div class="slides">
-      <section data-markdown="slides.md"
-               data-separator="^---$"
-               data-separator-vertical="^--$"
-               data-charset="utf-8">
-      </section>
-    </div>
-  </div>
+  <!-- your slides container -->
 
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/math/math.js"></script>
   <script>
     Reveal.initialize({
       hash: true,
-      plugins: [RevealMarkdown]
+      plugins: [ RevealMarkdown, RevealMath.MathJax ],
     });
   </script>
 </body>
-</html>
