@@ -5,7 +5,6 @@
   <title>Reveal.js Slides with Math</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/theme/black.css">
-  <!-- Load MathJax -->
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
@@ -13,15 +12,14 @@
     <div class="slides">
       <section data-markdown="slides.md"
                data-separator="^---$"
-               data-separator-vertical="^--$"
-               data-charset="utf-8">
-      </section>
+               data-charset="utf-8"></section>
     </div>
   </div>
 
+  <!-- Load Reveal and plugins in this order -->
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/markdown/markdown.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/math/math.js"></script> <!-- Math plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/math/math.js"></script>
 
   <script>
     Reveal.initialize({
