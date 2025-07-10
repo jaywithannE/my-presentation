@@ -22,11 +22,6 @@ jobs:
       - name: Convert Markdown to HTML
         run: marp slides.md --html -o index.html
 
-      - name: Setup Git user
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -34,5 +29,7 @@ jobs:
           publish_dir: ./
           publish_branch: gh-pages
           force_orphan: true
-          force_orphan_commit_message: 'Deploy slides'
-          force: true
+          user_name: github-actions
+          user_email: github-actions@github.com
+          commit_message: "Deploy slides"
+          allow_empty_commit: false
