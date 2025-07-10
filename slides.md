@@ -1,6 +1,16 @@
+<section data-auto-animate>
 # Welcome
 
-To me beautiful <small>presentation</small>.
+To me beautiful <span data-id="anim">presentation</span>.
+</section>
+
+---
+
+<section data-auto-animate>
+# Welcome
+
+To me beautiful <span data-id="anim">animated presentation</span>.
+</section>
 
 ---
 
@@ -9,6 +19,8 @@ To me beautiful <small>presentation</small>.
 $$
 \int_0^1 x^2 \, dx = \frac{1}{3}
 $$
+
+<small>Note: This is a basic integral example.</small>
 
 ---
 
