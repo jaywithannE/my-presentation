@@ -1,6 +1,6 @@
 # Welcome
 
-To me beautiful <small> presentation </small>.
+To me beautiful <small>presentation</small>.
 
 ---
 
