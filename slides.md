@@ -12,9 +12,9 @@ $$
 
 ---
 
-# Slide with Video 
+# Slide with Video
 
 <video controls width="800">
-  <source src="https://jaywithanne.github.io/my-presentation/circle.mp4" type="video/mp4" />
+  <source src="circle.mp4" type="video/mp4">
   Your browser doesn't support the video tag.
 </video>
