@@ -16,6 +16,6 @@ $$
 # Slide with Video
 
 <video controls width="600">
-  <source src="video.mp4" type="video/mp4">
+  <source src="circle.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
